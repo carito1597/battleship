@@ -1,0 +1,74 @@
+.my-cell {
+  width: 35px;
+  height: 35px;
+  margin: 3px;
+}
+
+.cell-label {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  text-justify: auto;
+}
+
+
+.oponent-cell {
+  width: 25px;
+  height: 25px;
+  margin: 1px;
+}
+
+.sunken-ship {
+  background-color: darkred;
+}
+
+.display-tables {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.gray{
+  background-color: dimgray;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.margin-auto {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.player-table {
+  margin-right: 20px;
+}
+
+.miss {
+  background-color: dimgray;
+  background-image: url("../assets/icons/miss.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bang {
+  background-color: dimgray;
+  background-image: url("../assets/icons/bang.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.ship {
+  background-color: dimgray;
+  background-image: url("../assets/icons/ship.png");
+  background-size: cover;
+  background-position: center;
+}
